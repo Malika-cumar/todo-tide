@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, responsive to-do list application built with **React** and **Tailwind CSS**, featuring **local storage**, **editable tasks**, a **strike counter**, and **motivational quotes** when you complete tasks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ **Add Tasks** – Input and add new tasks to your list.
+- ✏️ **Edit Tasks** – Update any existing task with ease.
+- ❌ **Delete Tasks** – Remove tasks you no longer need.
+- ✅ **Mark as Complete** – Check off tasks and receive a motivational quote.
+- 📦 **Persistent Storage** – Your tasks stay even after you refresh (thanks to `localStorage`).
+- 📊 **Strike Counter** – Counts how many tasks you’ve completed.
+- 🎨 **Responsive UI** – Fully styled with Tailwind CSS and responsive on all screen sizes.
+- 💬 **Motivational Quotes** – Get a random quote after completing a task.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Demo
+
+> **Live Preview:** [https://your-live-link.com](https://your-live-link.com)  
+> *(Replace with actual deployment link if hosted on Vercel, Netlify, etc.)*
+
+---
+
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Functional Components, Hooks)
+- **Styling:** Tailwind CSS
+- **Persistence:** `localStorage`
+- **Animation (optional):** CSS transitions / `setTimeout` quote display
+
+---
+
+## ⚙️ Installation
+
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/react-todo-app.git
+cd react-todo-app
+npm install
+npm run dev  # or npm start
