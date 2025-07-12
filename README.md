@@ -19,8 +19,8 @@ An interactive, responsive to-do list application built with **React** and **Tai
 
 ## 🖼️ Demo
 
-> **Live Preview:** [https://your-live-link.com](https://your-live-link.com)  
-> *(Replace with actual deployment link if hosted on Vercel, Netlify, etc.)*
+> live preview : https://todo-tide.vercel.app/)  
+
 
 ---
 
